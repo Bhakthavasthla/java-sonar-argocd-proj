@@ -47,7 +47,7 @@ pipeline {
     }
     stage('Update Deployment File') {
         environment {
-            GIT_REPO_NAME = "java-sonar-argocd-proj-1"
+            GIT_REPO_NAME = "java-sonar-argocd-proj"
             GIT_USER_NAME = "Bhakthavasthla"
         }
         steps {
